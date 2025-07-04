@@ -42,7 +42,7 @@ const App: React.FC = () => {
         break;
       case 'ready':
         setGameState('waiting');
-        alert('太快了！还没开始呢');
+        alert('太快了oi！还没开始呢oi🤣');
         break;
       case 'started':
         const endTime = Date.now();
